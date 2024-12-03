@@ -2,3 +2,5 @@
 /mwallet/node_modules
 /mwallet/build
 /backend/.env
+/mwallet/.env
+.vscode
