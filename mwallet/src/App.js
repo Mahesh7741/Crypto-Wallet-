@@ -3,11 +3,10 @@ import { useState } from "react";
 import logo from "./ethereumLogo.svg";
 import { Select } from "antd";
 import { Routes, Route } from "react-router-dom";
+import WalletView from "./components/WalletView";
 import Home from "./components/Home";
 import CreateAccount from "./components/CreateAccount";
 import RecoverAccount from "./components/RecoverAccount";
-import WalletView from "./components/WalletView";
-
 function App() {
   const [wallet, setWallet] = useState(null);
   const [seedPhrase, setSeedPhrase] = useState(null);
